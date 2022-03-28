@@ -1,0 +1,460 @@
+.main_content {
+  width: 1200px;
+  height: 2194px;
+  margin: 0 auto;
+  position: relative;
+}
+.main_content .side {
+  width: 218px;
+  height: 41px;
+  position: absolute;
+  bottom: 54px;
+  right: 346px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_content .side > div {
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.main_content .side > div p {
+  font-size: 24px;
+  color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -55%);
+  /* 원래 50인데 세모여서 55로 임의조정함 */
+}
+
+.main_content .side input {
+  width: 50px;
+  height: 24px;
+  text-align: center;
+  background: gray;
+  outline: none;
+  color: white;
+  border: 1px solid #fff;
+}
+.main_content .side span {
+  color: white;
+}
+
+.main_content aside {
+  width: 260px;
+  height: 1604px;
+  background-color: #817f7e;
+  border-radius: 15px;
+  position: absolute;
+  top: 76px;
+  /* 69 에 Filters 높이인 7까지 더했음. */
+  margin-right: 15px;
+  position: relative;
+}
+
+.main_content aside .title {
+  width: 100%;
+  height: 23px;
+  position: absolute;
+  top: -25px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.main_content aside .title ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_content aside .title ul li {
+  color: #ebeaff;
+  font-size: 20px;
+  letter-spacing: -2px;
+  line-height: 23px;
+}
+
+.main_content aside .content {
+  width: 223px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f6f5f6;
+}
+.main_content aside .box01 {
+  top: 20px;
+  height: 134px;
+  position: relative;
+}
+.main_content aside .contents {
+  cursor: pointer;
+}
+.main_content aside .box01 > p {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  font-weight: bold;
+}
+.main_content aside .box01 button {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  bottom: 17px;
+  cursor: pointer;
+}
+.main_content aside .box02 {
+  top: 164px;
+  height: 105px;
+}
+.main_content aside .box02 .wrap {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_content aside .box02 .wrap div {
+  width: calc(100% / 3 - 10px);
+  height: 100%;
+  background: rgb(235, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main_content aside .box02 .wrap div:first-child {
+  background: #f9c935;
+}
+.main_content aside .box03 {
+  top: 279px;
+  height: 105px;
+}
+.main_content aside .box03 .wrap {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_content aside .box03 .wrap div {
+  width: calc(100% / 3 - 10px);
+  height: 100%;
+  background: rgb(235, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main_content aside .box03 .wrap div p {
+  font-size: 11px;
+}
+.main_content aside .box03 .wrap div:first-child {
+  background: #f9c935;
+}
+
+.main_content aside .box04 {
+  top: 394px;
+  height: 105px;
+}
+.main_content aside .box04 .wrap {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_content aside .box04 .wrap div {
+  width: calc(100% / 3 - 10px);
+  height: 100%;
+  background: rgb(235, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main_content aside .box04 .wrap div p {
+  font-size: 12px;
+}
+.main_content aside .box04 .wrap div:first-child {
+  background: #f9c935;
+}
+
+.main_content aside .box05 {
+  top: 509px;
+  height: 145px;
+}
+.main_content aside .box05 .wrap {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_content aside .box05 .wrap div {
+  width: calc(100% / 3 - 10px);
+  height: 100%;
+  background: rgb(235, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main_content aside .box05 .wrap div p {
+  font-size: 12px;
+}
+.main_content aside .box05 .wrap div:first-child {
+  background: #f9c935;
+}
+.main_content aside .box05 .wrap2 {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  display: flex;
+  justify-content: start;
+}
+.main_content aside .box05 .wrap2 div {
+  width: calc(100% / 3 - 10px);
+  height: 100%;
+  background: rgb(235, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main_content aside .box05 .wrap2 div:first-child {
+  margin-right: 15px;
+}
+.main_content aside .box05 .wrap2 div p {
+  font-size: 12px;
+}
+
+.main_content aside .box06 {
+  top: 664px;
+  height: 105px;
+}
+.main_content aside .box06 .wrap2 {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  display: flex;
+  justify-content: start;
+}
+.main_content aside .box06 .wrap2 div {
+  width: calc(100% / 3 - 10px);
+  height: 100%;
+  background: rgb(235, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main_content aside .box06 .wrap2 div:first-child {
+  margin-right: 15px;
+  background: #f9c935;
+}
+.main_content aside .box06 .wrap2 div p {
+  font-size: 12px;
+}
+
+.main_content aside .box07 {
+  top: 779px;
+  height: 238px;
+}
+.main_content aside .box07 .range01 {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.main_content aside .box07 .range02 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box07 .range03 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box07 .range04 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box07 .range05 {
+  width: 100%;
+  height: 30px;
+}
+.main_content aside .box07 > div {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.main_content aside .box07 .stat {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_content aside .box07 .stat p {
+  font-weight: bold;
+}
+
+.main_content aside .box08 {
+  top: 1027px;
+  height: 238px;
+}
+.main_content aside .box08 .range01 {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.main_content aside .box08 .range02 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box08 .range03 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box08 .range04 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box08 .range05 {
+  width: 100%;
+  height: 30px;
+}
+.main_content aside .box08 > div {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.main_content aside .box08 .stat {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_content aside .box08 .stat p {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.main_content aside .box09 {
+  top: 1275px;
+  height: 134px;
+}
+.main_content aside .box09 .range01 {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.main_content aside .box09 .range02 {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.main_content aside .box09 > div {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.main_content aside .box09 .stat {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_content aside .box09 .stat p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main_content aside .box10 {
+  top: 1419px;
+  height: 134px;
+}
+.main_content aside .box10 > p {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  font-weight: bold;
+}
+.main_content aside .box10 button {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  bottom: 17px;
+  cursor: pointer;
+}
+
+.main_content aside .contents {
+  width: 223px;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-image: url("/STFY_main/img/bar.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_content aside .contents p {
+  color: white;
+}
+
+.main_content aside .tri {
+  width: 19px;
+  height: 16px;
+  background-image: url("/STFY_main/img/tri.png");
+}

@@ -1,0 +1,112 @@
+main {
+  width: 920px;
+  height: 1927px;
+  position: absolute;
+  top: 151px;
+  right: 0;
+}
+main table {
+  width: 100%;
+  height: 100%;
+  border-spacing: 15px;
+  border-collapse: separate;
+}
+main table tr td {
+  border-radius: 10px;
+  background-size: cover;
+  position: relative;
+}
+main table tr td .star {
+  width: 47px;
+  height: 46px;
+  background-image: url("/STFY_main/img/star.png");
+  position: absolute;
+  top: 24px;
+  right: 23px;
+}
+main table tr td .dia {
+  width: 100px;
+  height: 100px;
+  background-image: url("/STFY_main/img/dia.png");
+  position: absolute;
+  top: 47px;
+  right: -3px;
+}
+main table tr td > p {
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  left: 24px;
+  bottom: 119px;
+}
+main table tr td span {
+  position: absolute;
+  left: 24px;
+  bottom: 93px;
+  color: white;
+  font-size: 16px;
+}
+main table tr td .btn {
+  position: absolute;
+  left: 19px;
+  bottom: 24px;
+  width: 258px;
+  height: 54px;
+  background-image: url("/STFY_main/img/cardBtn.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+main table tr td .btn p {
+  color: #652d12;
+  font-weight: bold;
+  font-size: 22px;
+}
+main table tr:nth-child(1) td:nth-child(1) {
+  background-image: url("/STFY_main/img/1.png");
+}
+main table tr:nth-child(1) td:nth-child(2) {
+  background-image: url("/STFY_main/img/2.png");
+}
+main table tr:nth-child(1) td:nth-child(3) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/3.png");
+}
+main table tr:nth-child(2) td:nth-child(1) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/4.png");
+}
+main table tr:nth-child(2) td:nth-child(2) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/5.png");
+}
+main table tr:nth-child(2) td:nth-child(3) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/6.png");
+}
+main table tr:nth-child(3) td:nth-child(1) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/7.png");
+}
+main table tr:nth-child(3) td:nth-child(2) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/8.png");
+}
+main table tr:nth-child(3) td:nth-child(3) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/9.png");
+}
+main table tr:nth-child(4) td:nth-child(1) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/10.png");
+}
+main table tr:nth-child(4) td:nth-child(2) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/11.png");
+}
+main table tr:nth-child(4) td:nth-child(3) {
+  background: #ffa;
+  background-image: url("/STFY_main/img/12.png");
+}
